@@ -1,0 +1,89 @@
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 40px 20px 40px 20px;
+    background-color:  hsl(0, 0%, 95%);
+    
+}
+
+
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color:  hsl(0, 0%, 95%);
+    font-size: 2.1em;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size:0.9em ;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.9em;
+}
+article{
+    padding: 2em;
+    max-width: 100%;
+    max-height: 100%;   
+}
+.card-1{
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 0.4em 0.4em 0 0;
+}
+.card-2{
+    background-color:  hsl(184, 100%, 22%);
+}
+.card-3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 0.4em  0.4em;
+}
+.btn-1{
+    color:  hsl(31, 77%, 52%);
+}
+.btn-2{
+    color:  hsl(184, 100%, 22%);
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
+button{
+    width: 11em;
+    height: 3.5em;
+    border-radius: 2em 2em;
+    border-style: none;
+}
+
+
+
+@media (min-width: 375px) {
+    
+    body{
+       padding-top: 10%;
+       display: grid;
+
+    }
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     width: 900px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    
+  }
+  article{
+    padding-right: 4em;
+  }
+  .card-1{
+    border-radius: 0.4em 0 0 0.4em;
+  }
+  .card-3{
+    border-radius: 0 0.4em 0.4em 0;
+  }
+  button{
+    margin-top: 40px;
+  }
+ 
+}
